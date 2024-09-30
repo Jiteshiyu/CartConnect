@@ -18,7 +18,6 @@ CartConnect is an e-commerce shopping cart application built with React-Redux
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
 - [Challenges and Learnings](#challenges-and-learnings)
-- [Contributing](#contributing)
 
 ## Demo
 
@@ -79,10 +78,10 @@ Ensure that **Node.js** and **npm** are installed on your machine. If not, you c
 
 The CartConnect app uses an external API to fetch and display product data.
 
-1. Fetching Product Data: The app sends a GET request to the Fake Store API, retrieving data such as product names, prices, and images.
-2. Cart Functionality: Users can add products to their cart and remove them as needed.
-3. Displaying Data: The app shows a list of products and allows users to manage their shopping cart.
-4. Responsive Design: The layout adjusts for different screen sizes using Tailwind CSS.
+1. **Fetching Product Data:** The app sends a GET request to the Fake Store API, retrieving data such as product names, prices, and images.
+2. **Cart Functionality:** Users can add products to their cart and remove them as needed.
+3. **Displaying Data:** The app shows a list of products and allows users to manage their shopping cart.
+4. **Responsive Design:** The layout adjusts for different screen sizes using Tailwind CSS.
 
 ## Future Improvements
 
@@ -93,24 +92,15 @@ The CartConnect app uses an external API to fetch and display product data.
 
 ## Challenges and Learnings
 
-- State Management: Utilizing Redux Toolkit for state management helped streamline the data flow throughout the app.
-- API Integration: Integrating the Fake Store API required handling asynchronous requests effectively.
-- Responsive Design: Ensuring a responsive layout across devices required careful use of Tailwind CSS utilities.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas for new features or improvements, feel free to submit a pull request or open an issue.
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a pull request
+- **State Management:** Utilizing Redux Toolkit for state management helped streamline the data flow throughout the app.
+- **API Integration:** Integrating the Fake Store API required handling asynchronous requests effectively.
+- **Responsive Design:** Ensuring a responsive layout across devices required careful use of Tailwind CSS utilities.
 
 ## Support
 If you liked the project, give it a 🌟 on the repo!
 
 Connect with me:
 
-[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@YourName&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/YourLinkedIn/)
-[![Github](https://img.shields.io/static/v1.svg?label=follow&message=@YourUsername&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/YourUsername/)
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/)
+[![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
+
