@@ -1,7 +1,9 @@
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Body Styles */
 body {
   margin: 0;
   padding: 0;
