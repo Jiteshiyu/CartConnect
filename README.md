@@ -21,7 +21,7 @@ CartConnect is an e-commerce shopping cart application built with React-Redux
 
 ## Demo
 
-You can view a live demo of the project [here](https://tastetide.netlify.app/).
+You can view a live demo of the project [here](https://cartconnect.netlify.app/).
 
 ## Features
 
