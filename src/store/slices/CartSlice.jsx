@@ -10,10 +10,12 @@ const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
+    // Adds item to the cart
     addToCart(state, action) {
       console.log(action);
       state.push(action.payload);
     },
+    // Removes item from the cart
     removeFromCart(state, action) {
       return state.filter((item) => item.id !== action.payload);
     },
