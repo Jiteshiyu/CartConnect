@@ -3,24 +3,31 @@ import { removeFromCart } from "../store/slices/CartSlice.jsx";
 
 export default function CartTile({ cartItem }) {
   const dispatch = useDispatch();
+
   function handleRemoveFromCart() {
+    // Dispatch action to remove item from cart
     dispatch(removeFromCart(cartItem.id));
   }
 
   return (
     <>
+      {/* Container for the cart item */}
       <div className="max-w-lg mx-auto flex justify-between items-center bg-red-500 my-2 p-5 rounded-xl">
         <div className="flex justify-center items-center space-x-4">
+          {/* Displays product image */}
           <img
             src={cartItem?.image}
             className="h-36 w-36 rounded-lg"
             alt={cartItem?.title}
           />
           <div className="space-y-5">
-            <h1 className="text-white font-bold">{cartItem?.title}</h1>
-            <p className="text-white font-extrabold">${cartItem?.price}</p>
+            <h1 className="text-white font-bold">{cartItem?.title}</h1>{" "}
+            {/* Displays product title */}
+            <p className="text-white font-extrabold">${cartItem?.price}</p>{" "}
+            {/* Displays product price */}
           </div>
         </div>
+        {/* Remove handler */}
         <div className="ml-5">
           <button
             onClick={handleRemoveFromCart}
