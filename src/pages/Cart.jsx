@@ -38,7 +38,7 @@ export default function Cart() {
           </div>
 
           {/* Cart items */}
-          <div className="flex flex-col mt-3 mb-7 max-w-6xl w-full">
+          <div className="flex flex-col justify-center items-center mt-3 mb-7 max-w-5xl w-full">
             {/* Render each cart item */}
             {cart.map((cartItem) => (
               <CartTile key={cartItem.id} cartItem={cartItem} />
