@@ -24,7 +24,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="mx-auto p-4">
       {/* Display loading spinner if data is still being fetched */}
       {loading ? (
         <div className="min-h-screen w-full flex justify-center items-center">
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       ) : (
         // Display product tiles once products are loaded
-        <div className="min-h-[80vh] grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-4">
+        <div className="min-h-[80vh] grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl">
           {/* Render each product tile */}
           {products && products.length
             ? products.map((productItem) => (
