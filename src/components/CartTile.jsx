@@ -17,7 +17,7 @@ export default function CartTile({ cartItem }) {
           {/* Displays product image */}
           <img
             src={cartItem?.image}
-            className="h-36 w-36 rounded-lg"
+            className="max-h-36 max-w-36 rounded-lg"
             alt={cartItem?.title}
           />
           <div className="space-y-5">
