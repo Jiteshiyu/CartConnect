@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       ) : (
         // Display product tiles once products are loaded
-        <div className="min-h-[80vh] grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto p-3">
+        <div className="min-h-[80vh] grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto gap-x-4 gap-y-8 p-2">
           {/* Render each product tile */}
           {products && products.length
             ? products.map((productItem) => (
