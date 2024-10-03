@@ -12,8 +12,8 @@ export default function CartTile({ cartItem }) {
   return (
     <>
       {/* Container for the cart item */}
-      <div className="max-w-lg mx-auto flex justify-between items-center bg-red-500 my-2 p-5 rounded-xl">
-        <div className="flex sm:flex-col justify-center items-center space-x-4">
+      <div className="max-w-lg mx-auto flex sm:flex-col justify-between items-center bg-red-500 my-2 p-5 rounded-xl">
+        <div className="flex justify-center items-center space-x-4 sm:space-y-4">
           {/* Displays product image */}
           <img
             src={cartItem?.image}
@@ -28,7 +28,7 @@ export default function CartTile({ cartItem }) {
           </div>
         </div>
         {/* Remove handler */}
-        <div className="ml-5">
+        <div className="ml-5 sm:ml-0 sm:mt-4">
           <button
             onClick={handleRemoveFromCart}
             className="bg-red-900 text-white font-bold border-2 rounded-lg px-4 py-2"
