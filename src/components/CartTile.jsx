@@ -13,7 +13,7 @@ export default function CartTile({ cartItem }) {
     <>
       {/* Container for the cart item */}
       <div className="max-w-lg mx-auto flex justify-between items-center bg-red-500 my-2 p-5 rounded-xl">
-        <div className="flex justify-center items-center space-x-4">
+        <div className="flex sm:flex-col justify-center items-center space-x-4">
           {/* Displays product image */}
           <img
             src={cartItem?.image}
