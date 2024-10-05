@@ -101,6 +101,9 @@ If you liked the project, give it a 🌟 on the repo!
 
 Connect with me:
 
-[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/)
-[![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
+
+[![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu)
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322)
+[![Portfolio](https://img.shields.io/static/v1?label=Visit&message=Jiteshiyu%20Portfolio&color=grey&logo=app&style=for-the-badge&logoColor=white&colorA=black)](https://Jiteshiyu.netlify.app)
+
 
