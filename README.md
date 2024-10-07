@@ -1,6 +1,6 @@
 # CartConnect
 
-CartConnect is an e-commerce shopping cart application built with React-Redux
+CartConnect is an e-commerce shopping cart application built with React-Redux.
 
 ![React](https://img.shields.io/badge/React-007ACC?style=for-the-badge&logo=react&logoColor=white)
 ![JSX](https://img.shields.io/badge/JSX-React%20Component-informational?style=for-the-badge&logo=react)
